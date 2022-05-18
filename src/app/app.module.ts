@@ -8,9 +8,9 @@ import { InMemoryDataService } from './in-memory-data.service';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { CertManageComponent } from './cert-manage/cert-manage.component';
-import { ProfileComponent } from './profile/profile.component';
-import { SkillComponent } from './skill/skill.component';
+import { CertificatesManagementComponent } from './certificates-management/certificates-management.component';
+import { ProfilesManagementComponent } from './profiles-management/profiles-management.component';
+import { SkillsManagementComponent } from './skills-management/skills-management.component';
 
 @NgModule({
   imports: [
@@ -22,7 +22,7 @@ import { SkillComponent } from './skill/skill.component';
   ],
   declarations: [
     AppComponent, 
-    CertManageComponent, ProfileComponent, SkillComponent
+    CertificatesManagementComponent, ProfilesManagementComponent, SkillsManagementComponent
   ],
   providers: [],
   bootstrap: [AppComponent]
