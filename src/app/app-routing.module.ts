@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
-import { CertManageComponent } from './cert-manage/cert-manage.component';
 import { CertificatesManagementComponent } from './certificates-management/certificates-management.component';
 import { ProfilesManagementComponent } from './profiles-management/profiles-management.component';
 import { SkillsManagementComponent } from './skills-management/skills-management.component';
